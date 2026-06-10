@@ -1,8 +1,8 @@
 # nRF Connect for iOS
 
 ![Platforms](https://img.shields.io/badge/Platforms-iOS%20|%20iPadOS%20|%20macOS-333333.svg)
-[![Release](https://img.shields.io/github/release/NordicSemiconductor/IOS-nRF-Connect.svg)](https://github.com/NordicSemiconductor/IOS-nRF-Connect/releases)
-[![GitHub stars](https://img.shields.io/github/stars/NordicSemiconductor/IOS-nRF-Connect)](https://github.com/NordicSemiconductor/IOS-nRF-Connect/stargazers)
+[![Release](https://img.shields.io/github/release/nordicsemi/IOS-nRF-Connect.svg)](https://github.com/nordicsemi/IOS-nRF-Connect/releases)
+[![GitHub stars](https://img.shields.io/github/stars/nordicsemi/IOS-nRF-Connect)](https://github.com/NordicSemiconductor/IOS-nRF-Connect/stargazers)
 
 > [!NOTE]  
 > This repository does not hold the source code of nRF Connect for Apple platforms. It is a public repository used to submit any issues and/or feedback.
@@ -15,7 +15,7 @@
 | Minimum Version | iOS 17.0 | iPadOS 17.0 | macOS 14.0 |
 | Exclusive Features | N/A | Early support for iPad OS 26.0 windowing. For example, Main Window + Device Logging during DFU. | Programmer (requires nrfutil & SEGGER J-LINK), Serial Terminal, SMP File Manager (still rough), Extended System Information, Multiple Windows (Accessories such as 'Logs' Only) |
 | Notes | N/A | N/A | Updates via Sparkle like a good Mac app. |
-| Distribution | [App Store](https://apps.apple.com/us/app/nrf-connect-for-mobile/id1054362403) | [App Store](https://apps.apple.com/us/app/nrf-connect-for-mobile/id1054362403) | [Self-Distribution](https://github.com/NordicSemiconductor/IOS-nRF-Connect/raw/refs/heads/master/Releases/nRF-Connect-2-8-b1024.dmg) [(see GitHub Releases Folder)](https://github.com/NordicSemiconductor/IOS-nRF-Connect/tree/readme/Releases)
+| Distribution | [App Store](https://apps.apple.com/us/app/nrf-connect-for-mobile/id1054362403) | [App Store](https://apps.apple.com/us/app/nrf-connect-for-mobile/id1054362403) | [Self-Distribution](https://github.com/nordicsemi/IOS-nRF-Connect/blob/master/Releases/nRF-Connect-2-8-1-b1127.dmg) [(see GitHub Releases Folder)](https://github.com/nordicsemi/IOS-nRF-Connect/tree/readme/Releases)
 
 ## Project history
 
@@ -36,16 +36,16 @@ The current version nRF Connect (formerly known as "nRF Master Control Panel"), 
 - Advertising as a BLE Peripheral
 - Import Files via Drag & Drop, or Open from External Sources (iCloud, etc.)
 - System Information (OS, CPU, GPU details)
-- [Online Service & Characteristic Repository](https://github.com/NordicSemiconductor/bluetooth-numbers-database), updated on app startup.
+- [Online Service & Characteristic Repository](https://github.com/nordicsemi/bluetooth-numbers-database), updated on app startup.
 
 ## Roadmap
 
 Please keep in mind that the following is representative of the team's intentions, and in no way should be taken as final. Priorities change, as well as unexpected issues & bugs we might decide are more important and need our immediate attention.
 
 Version 2.8.x:
-- [Allow user to set Default Data parser from Scanner Settings](https://github.com/NordicSemiconductor/IOS-nRF-Connect/issues/171)
-- [Allow UInt16 and UInt32 writes](https://github.com/NordicSemiconductor/IOS-nRF-Connect/issues/213)
-- [Look into Data Filter](https://github.com/NordicSemiconductor/IOS-nRF-Connect/issues/111)
+- [Allow user to set Default Data parser from Scanner Settings](https://github.com/nordicsemi/IOS-nRF-Connect/issues/171)
+- [Allow UInt16 and UInt32 writes](https://github.com/nordicsemi/IOS-nRF-Connect/issues/213)
+- [Look into Data Filter](https://github.com/nordicsemi/IOS-nRF-Connect/issues/111)
 
 Version 2.9:
 - 'Scanner' Rewrite
@@ -71,8 +71,8 @@ But you're probably not in this section to read blogs, even though some of them 
 
 ## Related Projects
 
-- [iOS DFU/McuMgr Library](https://github.com/NordicSemiconductor/IOS-Pods-DFU-Library)
+- [iOS DFU/McuMgr Library](https://github.com/nordicsemi/IOS-DFU-Library)
 - [(Nordic) iOS Common Libraries](https://github.com/NordicPlayground/IOS-Common-Libraries)
-- [nRF Connect for Android](https://github.com/NordicSemiconductor/Android-nRF-Connect)
-- [Android DFU/McuMgr Library](https://github.com/NordicSemiconductor/Android-DFU-Library)
-- [nRF Connect for Desktop GitHub Page](https://github.com/NordicSemiconductor/pc-nrfconnect-launcher)
+- [nRF Connect for Android](https://github.com/nordicsemi/Android-nRF-Connect)
+- [Android DFU/McuMgr Library](https://github.com/nordicsemi/Android-DFU-Library)
+- [nRF Connect for Desktop GitHub Page](https://github.com/nordicsemi/pc-nrfconnect-launcher)
