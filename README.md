@@ -1,4 +1,4 @@
-# nRF Connect for iOS
+# nRF Connect for iOS / iPadOS / macOS
 
 ![Platforms](https://img.shields.io/badge/Platforms-iOS%20|%20iPadOS%20|%20macOS-333333.svg)
 [![Release](https://img.shields.io/github/release/nordicsemi/IOS-nRF-Connect.svg)](https://github.com/nordicsemi/IOS-nRF-Connect/releases)
@@ -13,8 +13,8 @@
 | :---: | :---: | :----: | :----: |
 | | ![](ios.png) | ![](ipados.png) | ![](mac.png) |
 | Minimum Version | iOS 17.0 | iPadOS 17.0 | macOS 14.0 |
-| Exclusive Features | N/A | Early support for iPad OS 26.0 windowing. For example, Main Window + Device Logging during DFU. | Programmer (requires nrfutil & SEGGER J-LINK), Serial Terminal, SMP File Manager (still rough), Extended System Information, Multiple Windows (Accessories such as 'Logs' Only) |
-| Notes | N/A | N/A | Updates via Sparkle like a good Mac app. |
+| Exclusive Features | N/A | Imperfect support for iPad OS windowing. For example, Main Window + Separate Device Logs Window during DFU. | Programmer (requires ``nrfutil`` & SEGGER J-LINK), Serial Terminal, SMP File Manager (still rough), Extended System Information, Multiple Windows (Accessories such as 'Logs' Only) |
+| Notes | N/A | N/A | Updates via [Sparkle](https://sparkle-project.org/) like a good (would-like-to-be) Mac app. |
 | Distribution | [App Store](https://apps.apple.com/us/app/nrf-connect-for-mobile/id1054362403) | [App Store](https://apps.apple.com/us/app/nrf-connect-for-mobile/id1054362403) | [Self-Distribution](https://github.com/nordicsemi/IOS-nRF-Connect/blob/master/Releases/nRF-Connect-2-8-1-b1127.dmg) [(see GitHub Releases Folder)](https://github.com/nordicsemi/IOS-nRF-Connect/tree/readme/Releases)
 
 ## Project history
@@ -43,12 +43,12 @@ The current version nRF Connect (formerly known as "nRF Master Control Panel"), 
 Please keep in mind that the following is representative of the team's intentions, and in no way should be taken as final. Priorities change, as well as unexpected issues & bugs we might decide are more important and need our immediate attention.
 
 Version 2.8.x:
-- [Allow user to set Default Data parser from Scanner Settings](https://github.com/nordicsemi/IOS-nRF-Connect/issues/171)
-- [Allow UInt16 and UInt32 writes](https://github.com/nordicsemi/IOS-nRF-Connect/issues/213)
-- [Look into Data Filter](https://github.com/nordicsemi/IOS-nRF-Connect/issues/111)
+- [ ] [Allow user to set Default Data parser from Scanner Settings](https://github.com/nordicsemi/IOS-nRF-Connect/issues/171)
+- [x] ~~[Allow UInt16 and UInt32 writes](https://github.com/nordicsemi/IOS-nRF-Connect/issues/213)~~
+- [ ] [Look into Data Filter](https://github.com/nordicsemi/IOS-nRF-Connect/issues/111)
 
 Version 2.9:
-- 'Scanner' Rewrite
+- [ ] 'Scanner' Rewrite
 
 Ongoing:
 - Keep making 'Mac' version of nRF Connect fit better on the Mac.
