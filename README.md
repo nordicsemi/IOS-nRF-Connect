@@ -45,15 +45,16 @@ Please keep in mind that the following is representative of the team's intention
 Version 2.8.x:
 - [ ] [Allow user to set Default Data parser from Scanner Settings](https://github.com/nordicsemi/IOS-nRF-Connect/issues/171)
 - [x] ~~[Allow UInt16 and UInt32 writes](https://github.com/nordicsemi/IOS-nRF-Connect/issues/213)~~
-- [ ] [Look into Data Filter](https://github.com/nordicsemi/IOS-nRF-Connect/issues/111)
+- [x] ~~[Look into Data Filter](https://github.com/nordicsemi/IOS-nRF-Connect/issues/111)~~
+- [ ] Serial Terminal should also allow you to write to the port as well
 
 Version 2.9:
-- [ ] 'Scanner' Rewrite
+- [ ] 'Scanner' UI Rewrite into SwiftUI
 
 Ongoing:
 - Keep making 'Mac' version of nRF Connect fit better on the Mac.
-- Continue our work on low-level performance optimisations
 - (Fun item) New shaders!
+- :heavy_check_mark: Continue our work on low-level performance optimisations
 
 ## Development
 
