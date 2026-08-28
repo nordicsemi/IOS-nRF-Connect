@@ -43,7 +43,7 @@ The current version nRF Connect (formerly known as "nRF Master Control Panel"), 
 Please keep in mind that the following is representative of the team's intentions, and in no way should be taken as final. Priorities change, as well as unexpected issues & bugs we might decide are more important and need our immediate attention.
 
 Version 2.8.x:
-- [ ] [Allow user to set Default Data parser from Scanner Settings](https://github.com/nordicsemi/IOS-nRF-Connect/issues/171)
+- [x] ~~[Allow user to set Default Data parser from Scanner Settings](https://github.com/nordicsemi/IOS-nRF-Connect/issues/171)~~
 - [x] ~~[Allow UInt16 and UInt32 writes](https://github.com/nordicsemi/IOS-nRF-Connect/issues/213)~~
 - [x] ~~[Look into Data Filter](https://github.com/nordicsemi/IOS-nRF-Connect/issues/111)~~
 - [ ] Serial Terminal should also allow you to write to the port as well
