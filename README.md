@@ -43,10 +43,12 @@ The current version nRF Connect (formerly known as "nRF Master Control Panel"), 
 Please keep in mind that the following is representative of the team's intentions, and in no way should be taken as final. Priorities change, as well as unexpected issues & bugs we might decide are more important and need our immediate attention.
 
 Version 2.8.x:
-- [x] ~~[Allow user to set Default Data parser from Scanner Settings](https://github.com/nordicsemi/IOS-nRF-Connect/issues/171)~~
-- [x] ~~[Allow UInt16 and UInt32 writes](https://github.com/nordicsemi/IOS-nRF-Connect/issues/213)~~
-- [x] ~~[Look into Data Filter](https://github.com/nordicsemi/IOS-nRF-Connect/issues/111)~~
-- [ ] Serial Terminal should also allow you to write to the port as well
+- [x] ~~[Allow user to set Default Data parser from Scanner Settings](https://github.com/nordicsemi/IOS-nRF-Connect/issues/171)~~ (v2.8.3)
+- [x] ~~[Allow UInt16 and UInt32 writes](https://github.com/nordicsemi/IOS-nRF-Connect/issues/213)~~ (v2.8.3)
+- [x] ~~[Look into Data Filter](https://github.com/nordicsemi/IOS-nRF-Connect/issues/111)~~ (v2.8.3)
+- [x] ~~Serial Terminal should also allow you to write to the port as well~~ (v2.8.3)
+- [ ] Fix for not being able to send McuMgr Commands unless a valid Upload package is selected
+- [ ] Drag & Drop .hex files into Programmer Tab
 
 Version 2.9:
 - [ ] 'Scanner' UI Rewrite into SwiftUI
